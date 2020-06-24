@@ -14,7 +14,7 @@ YELLOW="\033[38;5;11m"
 BLUE="\033[0;34m"
 RED="\033[0;31m"
 WHITE="\033[38;5;15m"
-ECHO=off
+ECHO=on
 
 # Set color
 if [[ $DEMO_COLOR == "blue" ]]; then
@@ -46,9 +46,9 @@ usage_instructions() {
   echo "The following flags can be used in the commands file:"
   echo "  @_ECHO_ON   - Turns on echoing and execution of subsequent commands. Must be placed in its own line."
   echo "                When @_ECHO_ON is enabled, user must press the Return key once to echo the next command, and again"
-  echo "                to execute it."
+  echo "                to execute it. This is the default mode."
   echo "  @_ECHO_OFF  - Turns off echoing of subsequent commands. Commands will be executed immediately, without user input."
-  echo "                Must be placed in its own line. This is the default mode."
+  echo "                Must be placed in its own line."
   echo "  @_SKIP      - Disables echo and execution of a line. Must be placed at the beginning of the line."
   echo
   echo "The following environment variables can be used to modify the behavior of the script:"
