@@ -225,8 +225,8 @@ echo
 echo "The following env vars have been set:"
 echo "DEMO_HOME=${DEMO_HOME}"
 echo "DEMO_SCRIPT=${DEMO_SCRIPT}"
-echo "DEMO_TEMP=${DEMO_TEMP}"           -----> Directory created
-echo "DEMO_FILES=${DEMO_FILES}"         -----> Directory created
+echo "DEMO_TEMP=${DEMO_TEMP}           -----> Directory created"
+echo "DEMO_FILES=${DEMO_FILES}         -----> Directory created"
 echo "alias cdd=\${DEMO_HOME}"
 echo "alias cdt=\${DEMO_TEMP}"
 echo
