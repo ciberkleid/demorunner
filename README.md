@@ -33,7 +33,7 @@ To run a demo script, execute the following command:
    
    The optional `-f` flag instructs `run.sh` to delete and recreate the temp directory.
    
-   The optional `-m` flag instructs `run.sh` not to run demorunner automatically after setting up the env. You can run demorunner manually using:
+   The optional `-a` flag instructs `run.sh` to run demorunner automatically after setting up the env. Otherwise, you can run demorunner manually using:
    
    `cd ${DEMO_TEMP}; source demorunner.sh ${DEMO_SCRIPT} 1; cd ${DEMO_HOME}`
    
